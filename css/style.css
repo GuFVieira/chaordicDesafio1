@@ -1,0 +1,146 @@
+/***
+
+	vermelho: #AA1423;
+	cinza borda: #ccc;
+	cinza fundo: #F1F!F!;
+
+***/
+
+
+/***GENERAL***/
+
+html, body{
+	font-size: 1.0em;
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#division{
+	height: 2px;
+	background-color: #C6C6C6;
+}
+strong{
+	font-size: 18px;
+	color:#AA2423;
+}
+.title strong{
+    text-align: left;
+    color:black;
+}
+#codig{
+	font-size: 0.65em;
+	margin-top: 0;
+}
+
+/***REFERENCE***/
+
+.one-reference strong{
+	font-size: 1.6em;
+}
+.reference .one-reference{
+	margin: 20px 0px 0px 10px;
+	width: 50%;
+	height: relative;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	position: relative;
+}
+.reference p{
+	font-size: 1.0em;
+	margin: 0;
+}
+#parcel{
+	float: right;
+}
+.price > div{
+	margin: 15px 0px 20px;
+}
+.row .name-reference{
+	margin-bottom: 20px;
+	color: black;
+}
+.reference img{
+	width: 30%;
+	float: left;
+	border: 1px solid #ccc;
+	margin-right: 30px;
+}
+.btn, .btn:hover, .btn:active, .btn:visited{
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: 1.0em;
+    color: white;
+    border-color: white;
+    background-color: #c61d24;
+    margin: 15px 0 0px 0;
+}
+.btn span{
+	font-weight: 600;
+    font-size: 1.0em;
+}
+a, a:link, a:visited, a:hover, a:active{
+	color: green;
+	text-decoration: underline;
+	position: center;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
+
+/***RECOMMENDATION***/
+
+.recommend .row {
+	border: 10px;
+	border-color: #838383;
+}
+.one-recommend img{
+	width: 80%;
+	margin: 10px;
+	position: relative;
+}
+.recommend .one-recommend{
+	width: 190px;
+	height: 320px;
+	margin: 10px 10px 10px;
+}
+.one-recommend:hover{
+	border: 1px solid #c6c6c6;
+	background-color: #f0f0f0;
+}
+.recommend .name-recommend{
+	margin-bottom: 0;
+}
+.recommend a{
+	color:black;
+	font-size: 11px;
+	text-decoration: none;
+}
+.recommend a:link{
+	text-decoration:none;
+}
+.recommend a:visited{
+	color: black;
+	text-decoration:none;
+}
+.recommend a:hover{
+	text-decoration:underline;
+}
+.recommend a:active{
+	text-decoration:underline
+}
+.item{
+	margin-left: 2%;
+}
+.carousel-control{
+	width:  1%;
+}
+.carousel-control.left,.carousel-control.right {
+	margin-left:15px;
+	background-image:none;
+}
+.carousel .one-recommend{
+	margin-left: 6%;
+}
+.carousel{
+	border-bottom: 2px solid #ccc;
+}
